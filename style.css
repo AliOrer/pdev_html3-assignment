@@ -1,0 +1,38 @@
+*{
+    background-color: rgb(166, 219, 219);
+    text-align: center;
+    
+}
+h1{
+    color: rgba(232, 13, 6, 0.954);
+    margin: 20px 0 20px 0;
+}
+p{
+    word-spacing: 7px;
+    color:rgb(20, 38, 204);
+    font-size: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0 10% 0 10%;
+}
+h2{
+    color :rgb(82, 9, 73);
+}
+hr{
+    border: 1.9px solid rgb(164, 117, 211);
+    margin: 45px 10% 45px 10%;   
+}
+
+p:hover{
+    background-color: rgba(240, 248, 255, 0.157);
+}
+li{
+    list-style: inside;
+    padding: 3px;
+    color: rgb(122, 16, 71);
+}
+li::selection{
+    background-color: rgba(132, 88, 174, 0.337);
+}
+img{
+    margin: 1.5%;
+}
